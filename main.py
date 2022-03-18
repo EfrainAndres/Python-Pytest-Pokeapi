@@ -28,6 +28,7 @@ def third_question():
         widths.append(get_pokemon_weight(pokemon))
     return [max(widths), min(widths)]    
 
+# Check Answers
 def check_answers_solutions():
     questions = (
         first_question,
