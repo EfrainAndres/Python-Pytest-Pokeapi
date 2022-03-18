@@ -1,0 +1,4 @@
+#python 3.10
+
+#imports
+requests==2.27.1
