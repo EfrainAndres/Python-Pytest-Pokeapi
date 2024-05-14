@@ -1,24 +1,24 @@
-# Houm Backend Challenge
+# API Challenge
 
-1. Obtén cuantos pokemones poseen en sus nombres “at” y tienen 2 “a” en su nombre, incluyendo la primera del “at”. Tu respuesta debe ser un número.
-2. ¿Con cuántas especies de pokémon puede procrear raichu? (2 Pokémon pueden procrear si están dentro del mismo egg group). Tu respuesta debe ser un número. Recuerda eliminar los duplicados.
-3. Entrega el máximo y mínimo peso de los pokémon de tipo fighting de primera generación (cuyo id sea menor o igual a 151). Tu respuesta debe ser una lista con el siguiente formato: [1234, 12], en donde 1234 corresponde al máximo peso y 12 al mínimo.
+1. Get how many pokemon have "at" in their names and have 2 "a" in their name, including the first "at". Your answer must be a number.
+2. How many species of pokémon can raichu breed with (2 Pokémon can breed if they are in the same egg group). Your answer must be a number. Remember to eliminate duplicates.
+3. Give the maximum and minimum weight of first generation fighting type pokémon (whose id is less than or equal to 151). Your answer must be a list with the following format: [1234, 12], where 1234 corresponds to the maximum weight and 12 to the minimum.
 
-## Instalación
-El código ha sido probado en Python 3.10 y Windows 11
-Se requiere de `pip`
+## Installation
+The code has been tested on Python 3.10 and Windows 11.
+`pip` is required
 
-Clonar repositorio:
+Clone repository:
 ```
 git clone https://github.com/EfrainAndres/houm-challenge.git
 ```
 
-Instalar dependencias:
+Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-Realizar tests
+Performing tests
 ```
 python main.py
 ```
